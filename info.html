@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>實用資訊 | 北京深度旅遊</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Microsoft JhengHei', sans-serif; background: #F5F5F0; color: #333; }
+    .header { background: linear-gradient(135deg, #8B2323, #D4AF37); padding: 20px; color: white; }
+    .nav { background: #333; padding: 15px; }
+    .nav a { color: white; margin-right: 20px; text-decoration: none; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+    .section-title { text-align: center; color: #8B2323; font-size: 2rem; margin-bottom: 30px; }
+    .info-box { background: white; padding: 30px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .info-box h3 { color: #8B2323; margin-bottom: 15px; border-bottom: 2px solid #D4AF37; padding-bottom: 10px; }
+    .info-box ul { list-style: none; }
+    .info-box li { padding: 10px 0; border-bottom: 1px solid #eee; }
+    .info-box li:last-child { border: none; }
+    .label { font-weight: bold; color: #8B2323; }
+    .emergency { background: #ffcccc; padding: 15px; border-radius: 5px; margin-top: 10px; }
+    .emergency::before { content: '⚠️ '; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>📋 實用資訊</h1>
+  </header>
+  <nav class="nav">
+    <a href="index.html">首頁</a>
+    <a href="spots.html">景點</a>
+    <a href="foods.html">美食</a>
+    <a href="itinerary.html">行程</a>
+    <a href="info.html">資訊</a>
+  </nav>
+  <div class="container">
+    <h2 class="section-title">北京旅遊須知</h2>
+    
+    <div class="info-box">
+      <h3>📝 簽證與通關</h3>
+      <ul>
+        <li><span class="label">台胞證：</span>需提前7天申請，有效期5年</li>
+        <li><span class="label">落地簽：</span>不可使用，需先辦理台胞證</li>
+        <li><span class="label">通關：</span>北京首都國際機場、大興國際機場</li>
+      </ul>
+    </div>
+    
+    <div class="info-box">
+      <h3>🚇 交通指南</h3>
+      <ul>
+        <li><span class="label">地鐵：</span>北京地鐵發達，建議下載「北京交通」APP</li>
+        <li><span class="label">計程車：</span>建議使用滴滴叫車或路邊攔車</li>
+        <li><span class="label">機場交通：</span>機場線、地鐵直達市區</li>
+      </ul>
+    </div>
+    
+    <div class="info-box">
+      <h3>🌤️ 天氣與穿搭建議</h3>
+      <ul>
+        <li><span class="label">春季（3-5月）：</span>早晚溫差大，帶薄外套</li>
+        <li><span class="label">夏季（6-8月）：</span>炎熱多雨，帶雨具</li>
+        <li><span class="label">秋季（9-11月）：</span>最適合旅遊，秋高氣爽</li>
+        <li><span class="label">冬季（12-2月）：</span>寒冷，帶羽絨服</li>
+      </ul>
+    </div>
+    
+    <div class="info-box">
+      <h3>🆘 緊急聯絡</h3>
+      <ul>
+        <li><span class="label">急救：</span>120</li>
+        <li><span class="label">報警：</span>110</li>
+        <li><span class="label">消防：</span>119</li>
+        <li><span class="label">台灣駐北京辦事處：</span>+86 10 8866-8810</li>
+      </ul>
+      <div class="emergency">如遇緊急情況，請立即撥打當地急救電話</div>
+    </div>
+  </div>
+</body>
+</html>
