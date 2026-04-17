@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>景點列表 | 北京深度旅遊</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Microsoft JhengHei', sans-serif; background: #F5F5F0; color: #333; }
+    .header { background: linear-gradient(135deg, #8B2323, #D4AF37); padding: 20px; color: white; }
+    .nav { background: #333; padding: 15px; }
+    .nav a { color: white; margin-right: 20px; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+    .section-title { text-align: center; color: #8B2323; font-size: 2rem; margin-bottom: 30px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card-body { padding: 20px; }
+    .card h3 { color: #8B2323; margin-bottom: 10px; }
+    .card p { color: #666; }
+    .rating { color: #D4AF37; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>🏛️ 北京景點</h1>
+  </header>
+  <nav class="nav">
+    <a href="index.html">首頁</a>
+    <a href="spots.html">景點</a>
+    <a href="foods.html">美食</a>
+    <a href="itinerary.html">行程</a>
+    <a href="info.html">資訊</a>
+  </nav>
+  <div class="container">
+    <h2 class="section-title">精選景點</h2>
+    <div class="cards">
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="故宮"><div class="card-body"><h3>故宮紫禁城</h3><p>明清兩代皇家宮殿</p><p class="rating">⭐ 4.9</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="長城"><div class="card-body"><h3>慕田峪長城</h3><p>北京最完好的一段長城</p><p class="rating">⭐ 4.8</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="頤和園"><div class="card-body"><h3>頤和園</h3><p>清代皇家避暑行宮</p><p class="rating">⭐ 4.8</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="天壇"><div class="card-body"><h3>天壇</h3><p>明清帝王祭天聖地</p><p class="rating">⭐ 4.7</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="鳥巢"><div class="card-body"><h3>鳥巢</h3><p>2008奧運主場館</p><p class="rating">⭐ 4.6</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop" alt="水立方"><div class="card-body"><h3>水立方</h3><p>2008奧運游泳館</p><p class="rating">⭐ 4.5</p></div></div>
+    </div>
+  </div>
+</body>
+</html>
