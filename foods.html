@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>美食列表 | 北京深度旅遊</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Microsoft JhengHei', sans-serif; background: #F5F5F0; color: #333; }
+    .header { background: linear-gradient(135deg, #8B2323, #D4AF37); padding: 20px; color: white; }
+    .nav { background: #333; padding: 15px; }
+    .nav a { color: white; margin-right: 20px; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+    .section-title { text-align: center; color: #8B2323; font-size: 2rem; margin-bottom: 30px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card-body { padding: 20px; }
+    .card h3 { color: #8B2323; margin-bottom: 10px; }
+    .card p { color: #666; }
+    .price { color: #D4AF37; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>🍜 北京美食</h1>
+  </header>
+  <nav class="nav">
+    <a href="index.html">首頁</a>
+    <a href="spots.html">景點</a>
+    <a href="foods.html">美食</a>
+    <a href="itinerary.html">行程</a>
+    <a href="info.html">資訊</a>
+  </nav>
+  <div class="container">
+    <h2 class="section-title">經典美食</h2>
+    <div class="cards">
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="烤鴨"><div class="card-body"><h3>北京烤鴨</h3><p>百年老字號，必吃經典</p><p class="price">¥150-200</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="炸醬麵"><div class="card-body"><h3>炸醬麵</h3><p>老北京道地小吃</p><p class="price">¥25-40</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="豆汁"><div class="card-body"><h3>豆汁</h3><p>北京傳統飲品</p><p class="price">¥10-20</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="驢打滾"><div class="card-body"><h3>驢打滾</h3><p>傳統甜點</p><p class="price">¥15-30</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="艾窩窩"><div class="card-body"><h3>艾窩窩</h3><p>宮廷甜點</p><p class="price">¥10-25</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop" alt="涮羊肉"><div class="card-body"><h3>涮羊肉</h3><p>傳統火鍋</p><p class="price">¥80-120</p></div></div>
+    </div>
+  </div>
+</body>
+</html>
